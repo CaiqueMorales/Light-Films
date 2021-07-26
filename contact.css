@@ -1,0 +1,53 @@
+/* ********************  Body  ******************** */
+
+@import url(./style.css);
+
+/* Contact */
+
+.socials{
+    padding: 6em 0;
+    font-size: var(--normal-font-size);
+}
+
+.socials--icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials--icon-container > div {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.socials--icon-item{
+    margin: 1em 0;
+}
+
+.socials--icon{
+    color: var(--color-accent);
+    margin-right: .5em;
+}
+
+.socials--img-container{
+    margin-top: 5em;
+}
+
+.socials--img{
+    height: 100%;
+    width: auto;
+}
+
+/* @media screen and (min-width: 868px) {
+    .socials--container.split {
+        flex-direction: row;
+    }
+} */
+
+@media screen and (min-width: 1080px) {
+    .socials--img-container{
+        margin-top: 0;
+    }
+}

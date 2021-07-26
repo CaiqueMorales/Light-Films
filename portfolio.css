@@ -1,0 +1,22 @@
+/* ********************  Body  ******************** */
+
+@import url(./style.css);
+
+/* Projects */
+
+.projects--container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+    font-size: var(--normal-font-size);
+    color: var(--color-secondary-dark);
+}
+
+.projects--container p {
+    margin-bottom: 0;
+}
+
+.projects--img{
+    object-fit: cover;
+    object-position: center;
+}

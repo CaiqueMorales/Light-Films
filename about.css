@@ -1,0 +1,64 @@
+/* ********************  Body  ******************** */
+
+@import url(./style.css);
+
+/* About */
+
+.secondary-home {
+  padding-top: 0;
+  height: 40vh;
+  width: 100%;
+  background: url(./images/projects/imigrantes/imigrantes-front.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.secondary-home-container{
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.secondary-home h1 {
+  color: var(--color-secondary);
+  font-weight: var(--weight-bold);
+}
+
+/* Our team */
+
+.team{
+    padding: 6em 0;
+}
+
+.team-text h1 {
+  font-size: var(--larger-font-size);
+  font-weight: var(--weight-bold);
+  color: var(--color-accent);
+  margin-bottom: 1em;
+}
+
+.team-text p {
+  color: var(--color-text);
+  font-size: var(--normal-font-size);
+}
+
+.team-button {
+  padding: 0.5em 2em;
+  color: var(--color-secondary);
+  background-color: var(--color-accent);
+  transition: 0.5s;
+  display: inline-block;
+}
+
+.team--img-container{
+    margin-block: 2em;
+}
+
+@media screen and (min-width: 1080px) {
+    .team--img-container{
+        margin-block: 0;
+    }
+}
