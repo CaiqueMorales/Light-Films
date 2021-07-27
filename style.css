@@ -13,6 +13,7 @@
 
 html{
   overflow-x: hidden;
+  max-width: 100vw;
 }
 
 body {
@@ -23,6 +24,7 @@ body {
   font-size: 1.3rem;
   line-height: 1.4;
   letter-spacing: 0.5px;
+  overflow-x: hidden;
 }
 
 ul {
@@ -160,7 +162,7 @@ section{
   position: fixed;
   align-items: center;
   height: var(--navbar-height);
-  width: 100%;
+  width: 100vw;
   justify-content: space-between;
   padding: 1em 3em;
   transition: 0.5s;
@@ -313,6 +315,7 @@ section{
 /* Services */
 
 .services{
+  overflow-x: hidden;
   position: relative;
   opacity: 0;
   transition: all 2s ease;
