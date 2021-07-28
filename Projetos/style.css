@@ -1,0 +1,9 @@
+/* ==================== Importing variables ==================== */
+
+@import url(../style.css);
+
+/* ==================== Changing NavBar ==================== */
+
+.header{
+    background-color: var(--color-accent) !important;
+}

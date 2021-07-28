@@ -1,0 +1,10 @@
+.carousel--container{
+    background: red;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.carousel--slider{
+    display: flex;
+    overflow-x: hidden;
+}
