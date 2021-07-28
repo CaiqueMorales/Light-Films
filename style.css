@@ -273,6 +273,7 @@ section{
   position: absolute;
   inset: 0;
   background-color: rgba(0, 0, 0, 0.7);
+  padding-inline: 2em;
 }
 
 .home .container {
@@ -330,15 +331,16 @@ section{
 
 .services-title {
   font-weight: var(--weight-bold);
-  font-size: var(--larger-font-size);
+  font-size: var(--large-font-size);
   margin-bottom: 0.5em;
   color: var(--color-accent);
 }
 
 .services-subtitle {
-  margin-bottom: 3em;
+  margin-bottom: 2em;
   color: var(--color-accent);
   font-weight: var(--weight-normal);
+  font-size: var(--normal-font-size);
 }
 
 .services--item-container{
