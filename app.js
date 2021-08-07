@@ -1,3 +1,4 @@
+// Mobile Responsive Menu
 const navSlide = () => {
   const hamburger = document.querySelector(".hamburger");
   const menu = document.querySelector(".nav-menu");
@@ -15,31 +16,28 @@ const navMobile = () => {
   window.addEventListener("scroll", () => {
     header.classList.toggle("sticky", window.scrollY > 0);
   });
-
 };
 
-window.addEventListener('scroll', reveal)
+// Pop ups
+window.addEventListener("scroll", reveal);
 
-      function reveal(){
+function reveal() {
+  let reveals = document.querySelectorAll(".reveal");
 
-        let reveals = document.querySelectorAll('.reveal')
+  for (let i = 0; i < reveals.length; i++) {
+    let windowHeight = window.innerHeight;
+    let revealTop = reveals[i].getBoundingClientRect().top;
+    let revealPoint = 150;
 
-        for (let i = 0; i < reveals.length; i++){
+    if (revealTop < windowHeight - revealPoint) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
+    }
+  }
+}
 
-          let windowHeight = window.innerHeight
-          let revealTop = reveals[i].getBoundingClientRect().top
-          let revealPoint = 150
-
-          if(revealTop < windowHeight - revealPoint){
-            reveals[i].classList.add('active')
-          } else {
-            reveals[i].classList.remove('active')
-          }
-
-        }
-
-      }
-
+// Calling the functions
 const callFunctions = () => {
   navSlide();
   navMobile();

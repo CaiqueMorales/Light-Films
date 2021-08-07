@@ -9,7 +9,6 @@
     <!-- Custom Styles -->
     <link rel="stylesheet" href="../../style.css" />  <!-- Primary CSS -->
     <link rel="stylesheet" href="../style.css">  <!-- Project Base CSS -->
-    <link rel="stylesheet" href="style.css">  <!-- Own CSS -->
 
     <script
       src="https://kit.fontawesome.com/4b98e2de00.js"
@@ -42,21 +41,42 @@
 
     <!-- -------------------- Body -------------------- -->
 
-    <section class="container">
-      <div class="carousel--container">
-        <div class="carousel--slider">
-          <img src="../../images/projects/Sacada/Sacada1.jpg" alt="">
-          <img src="../../images/projects/Sacada/Sacada2.jpg" alt="">
-          <img src="../../images/projects/Sacada/Sacada3.jpg" alt="">
-          <img src="../../images/projects/Sacada/Sacada4.jpg" alt="">
-          <img src="../../images/projects/Sacada/Sacada5.jpg" alt="">
-          <img src="../../images/projects/Sacada/Sacada6.jpg" alt="">
-          <img src="../../images/projects/Sacada/Sacada7.jpg" alt="">
-          <img src="../../images/projects/Sacada/Sacada8.jpg" alt="">
+    <section id="Sacada">
+      <div class="container split-grid">
+        <div class="carousel--container">
+          <i class="fas fa-arrow-left" id="prevButton"></i>
+          <i class="fas fa-arrow-right" id="nextButton"></i>
+          <div class="carousel--slider">
+            <img src="../../images/projects/Sacada/Sacada8.jpg" id="last-clone" alt="">
+            <img src="../../images/projects/Sacada/Sacada1.jpg" alt="">
+            <img src="../../images/projects/Sacada/Sacada2.jpg" alt="">
+            <img src="../../images/projects/Sacada/Sacada3.jpg" alt="">
+            <img src="../../images/projects/Sacada/Sacada4.jpg" alt="">
+            <img src="../../images/projects/Sacada/Sacada5.jpg" alt="">
+            <img src="../../images/projects/Sacada/Sacada6.jpg" alt="">
+            <img src="../../images/projects/Sacada/Sacada7.jpg" alt="">
+            <img src="../../images/projects/Sacada/Sacada8.jpg" alt="">
+            <img src="../../images/projects/Sacada/Sacada1.jpg" id="first-clone" alt="">
+          </div>
         </div>
+
+        <div class="projects--container">
+          <h2 class="projects--title">Detalhes do projeto </h2>
+          <div class="projects--semicontainer">
+            <p class="projects--subtitle">Tipo do projeto:</p>
+            <p>Residencial</p>
+          </div>
+          <div class="projetcts--semicontainer">
+            <p class="projects--subtitle">Data:</p>
+            <p>3 de setembro de 2020</p>
+          </div>
+          <div class="projects--semicontainer">
+            <p class="projects--subtitle">Pelicula</p>
+            <p>Pelicula de proteção solar</p>
+          </div>
+        </div>
+        
       </div>
-      <button id="prevButton">Prev</button>
-      <button id="nextButton">Next</button>
     </section>
 
 
@@ -77,6 +97,7 @@
 
 
     <!-- -------------------- Scripts -------------------- -->
+    <script src="../app.js"></script>
     <script src="../../app.js"></script>
   </body>
 </html>
