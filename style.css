@@ -24,7 +24,6 @@ body {
   font-size: 1.3rem;
   line-height: 1.4;
   letter-spacing: 0.5px;
-  overflow-x: hidden;
 }
 
 ul {
@@ -246,7 +245,7 @@ section{
     left: 0;
     top: var(--navbar-height);
     height: calc(60vh - var(--navbar-height));
-    width: 100%;
+    width: 100vw;
     background-color: var(--color-accent);
     display: flex;
     flex-direction: column;
