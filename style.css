@@ -334,11 +334,10 @@ section{
 /* Services */
 
 .services{
-
   position: relative;
   opacity: 0;
   transition: all 2s ease;
-  transform: translateX(100%);
+  transform: translateX(-100%);
 }
 
 .services.active{
@@ -412,7 +411,7 @@ section{
   position: relative;
   opacity: 0;
   transition: all 2s ease;
-  transform: translateX(-100%);
+  transform: translateX(100%);
 }
 
 .welcome.active{
