@@ -336,13 +336,11 @@ section{
 .services{
   position: relative;
   opacity: 0;
-  transition: all 2s ease;
-  transform: translateX(-100%);
+  transition: all 2s;
 }
 
 .services.active{
   opacity: 1;
-  transform: translateX(0);
 }
 
 .services-title {
@@ -411,7 +409,7 @@ section{
   position: relative;
   opacity: 0;
   transition: all 2s ease;
-  transform: translateX(100%);
+  transform: translateX(-100%);
 }
 
 .welcome.active{
